@@ -1,5 +1,7 @@
-import React from "react";
-
+import React from 'react'
+import NavBar from './NavBar'
+import About from './About'
+import Home from './Home'
 function App() {
   return (
     <div>
@@ -7,7 +9,7 @@ function App() {
       <Home />
       <About />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
